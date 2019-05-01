@@ -11,6 +11,14 @@ To be a good DS or MLE, you have to answer most of these questions below quickly
 ## Machine Learning Concept
 ### Linear Regression and Logistic Regression
 1. What is linear regression? What is logistic regression? What is the difference?
+
+Linear regression is a predictive model. It gives 2 main idea: 1) does the set of independent variables do a good job in prediction. 2) which variable has significant infulencen on dependent variables.
+
+Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, the logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
+
+Difference: The essential difference between these two is that Logistic regression is used when the dependent variable is binary in nature. In contrast, Linear regression is used when the dependent variable is continuous and nature of the regression line is linear.
+
+
 2. How to find the best parameter for linear regression? / How to optimize the model?
 3. Please write down the close form solution for linear regression?
 4. What is Stochastic Gradient Descent or Mini-batch Gradient Descent? What is the advantage? and disadvantages?
