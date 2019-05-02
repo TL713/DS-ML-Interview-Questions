@@ -10,7 +10,7 @@ To be a good DS or MLE, you have to answer most of these questions below quickly
 
 ## Machine Learning Concept
 ### Linear Regression and Logistic Regression
-1. What is linear regression? What is logistic regression? What is the difference?
+#### 1. What is linear regression? What is logistic regression? What is the difference?
 
 Linear regression is a predictive model. It gives 2 main idea: 1) does the set of independent variables do a good job in prediction. 2) which variable has significant infulencen on dependent variables.
 
