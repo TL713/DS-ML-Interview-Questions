@@ -20,9 +20,27 @@ Difference: The essential difference between these two is that Logistic regressi
 
 
 2. How to find the best parameter for linear regression? / How to optimize the model?
+
+We can minimize the cost function of linaer regression. We are optimize to minimizing the maximum of residuls.
+
 3. Please write down the close form solution for linear regression?
+
+For linear regression on a model of the form 𝑦=𝑋𝛽, where 𝑋 is a matrix with full column rank, the least squares solution,
+𝛽̂ =argmin‖𝑋𝛽−𝑦‖2
+is given by
+𝛽̂ =(𝑋𝑇𝑋)−1𝑋𝑇𝑦
+
 4. What is Stochastic Gradient Descent or Mini-batch Gradient Descent? What is the advantage? and disadvantages?
+
+Stochastic gradient descent (SGD) takes this idea to the extreme--it uses only a single example (a batch size of 1) per iteration.
+
+Mini-batch stochastic gradient descent (mini-batch SGD) is a compromise between full-batch iteration and SGD. A mini-batch is typically between 10 and 1,000 examples, chosen at random.
+
+SGD can be nosiy because its batch size is 1 but it is efficient. Mini-batch SGD reduces the amount of noise in SGD but is still more efficient than full-batch.
+
 5. What is mean square error? What is Cross Entropy? What is the difference? Also please write down the formular of these two cost function.
+
+
 6. What is Softmax? What is relationship between Softmax and Logistic Regression?
 7. Explain and derive the SGD for Logistic Regression and Softmax?
 8. Does global optimal can be reached by SGD, why?
