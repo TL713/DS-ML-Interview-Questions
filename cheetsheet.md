@@ -12,7 +12,7 @@ To be a good DS or MLE, you have to answer most of these questions below quickly
 ### Linear Regression and Logistic Regression
 #### 1. What is linear regression? What is logistic regression? What is the difference?
 
-Linear regression is a predictive model. It gives 2 main idea: 1) does the set of independent variables do a good job in prediction. 2) which variable has significant infulencen on dependent variables.
+Linear regression is a predictive model. It gives 2 main ideas: 1) does the set of independent variables do a good job in prediction. 2) which variable has significant infulencen on dependent variables.
 
 Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, the logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
 
